@@ -1,4 +1,3 @@
-import twitter from "starlordtwitterscraper";
+import { greet } from "./hello.js";
 
-const d = await twitter("https://twitter.com/bemyrainbow23");
-await console.log(d);
+console.log(greet);
